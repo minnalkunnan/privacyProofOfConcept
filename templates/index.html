@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>{{ title }} - microblog</title>
+  </head>
+  <body>
+      <h1>Hello, user!</h1>
+
+      <a href="{{ url_for('index') }}">
+      	<img src="{{ url_for('static', filename = 'puppy1.jpeg') }}">
+      </a>
+      <a href="{{ url_for('index') }}">
+      	<img src="{{ url_for('static', filename = 'puppy2.jpeg') }}">
+      </a>
+      <a href="{{ url_for('index') }}">
+      	<img src="{{ url_for('static', filename = 'puppy3.jpeg') }}">
+      </a>
+
+      <a href="{{ url_for('index') }}">
+      	<img src="{{ url_for('static', filename = 'kitten1.jpeg') }}">
+      </a>
+      <a href="{{ url_for('index') }}">
+      	<img src="{{ url_for('static', filename = 'kitten2.jpeg') }}">
+      </a>
+      <a href="{{ url_for('index') }}">
+      	<img src="{{ url_for('static', filename = 'kitten3.jpeg') }}">
+      </a>
+  </body>
+</html>
